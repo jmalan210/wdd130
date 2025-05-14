@@ -9,7 +9,7 @@ nav a{color: white;
 h1{
     color: darkblue;
 }
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -17,5 +17,29 @@ img {
     box-shadow: 0 0 30px gray;
 }
 p{
-    padding: 10px;
+    padding: 0;
+}
+
+main{
+    width: 840px;
+}
+
+aside{
+    width: 20rem;
+    margin: 1rem;
+    border: 4px solid black;
+    padding: 5px;
+    background-color: rgba(244, 232, 183, 1);
+    color: black;
+    text-align: center;
+}
+aside img{
+    width: 200px;
+    height: auto;
+}
+
+footer{
+    margin-top: 15px;
+    border-top: 3px dotted black;
+    text-align: center;
 }
