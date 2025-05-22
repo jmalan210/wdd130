@@ -1,7 +1,12 @@
 :root {
-    --heading-font: "Verdana", sans-serif;
-    --heading-text-color: rgb(160, 7, 7);
-    --heading-background-color: rgb(177, 172, 172);
+    --primary-color: #48B3A7;
+    --secondary-color: #BFE2DB;
+    --accent1-color: #F6B81A;
+    --accent2-color: #202122;
+    --heading-font: "Roboto", sans-serif;
+    --text-font: "Bitter", serif;
+    --heading-text-color:  #202122;
+    --heading-background-color:  #BFE2DB;;
     --padding: 1rem;
     --border: 1px solid rgb(0 0 0 / 0.1)
 }
@@ -10,11 +15,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
+}
 
+h1, h2, h3, h4, h5, h6 {font-family: "Roboto", sans-serif;
 }
 
 nav {
-    background-color: rgb(160, 7, 7);
+    background-color: var(--primary-color);
     padding: 10px;
 }
 
@@ -45,6 +52,7 @@ main img {
 
 p {
     padding: 0;
+    font-family: "Bitter", serif;
 
 
 }
@@ -82,7 +90,7 @@ footer {
 .box {
     margin: 1rem;
     padding: 1rem;
-    background-color: lightblue;
-    color: darkblue;
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
 
 }
