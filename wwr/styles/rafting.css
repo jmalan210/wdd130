@@ -81,7 +81,7 @@ h1 {
 
 .hero article {
     position: absolute;
-    width: 75%;
+    width:75%;
     top: 85px;
     background-color: var(--secondary-color);
 }
