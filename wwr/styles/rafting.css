@@ -84,10 +84,16 @@ h1 {
     width:75%;
     top: 85px;
     background-color: var(--secondary-color);
+    margin-left: 105px;
 }
 
 .hero article img {
     float: right;
     width: 125px;
+
+}
+
+.socialmedia img{
+    width: 50px;
 
 }
