@@ -57,7 +57,7 @@ header {
 
 
 header img {
-
+    width: 200px;
     border: #202122 solid 3px;
     margin: 10px;
     box-shadow: 3px 3px 3px black;
