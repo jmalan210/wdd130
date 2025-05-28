@@ -30,7 +30,7 @@ header {
     padding: 0;
 }
 
-.navigation li{
+.navigation li {
     flex: 1 1 auto;
 }
 
@@ -77,11 +77,13 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    font-weight: bolder;
+    color: var(--accent2-color);
     text-align: center;
 }
 
-nav,p,
+nav,
+p,
 section,
 article {
     margin: 16px;
@@ -114,12 +116,12 @@ h1 {
     text-align: center;
     opacity: 0.9;
     background: var(--accent1-color);
-    color: white;
+    color: var(--accent2-color);
 }
 
 .hero article {
     position: absolute;
-    width:75%;
+    width: 75%;
     top: 85px;
     background-color: var(--secondary-color);
     margin-left: 105px;
@@ -128,6 +130,11 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+    margin: 10px
+}
+
+.hero article p {
+    padding: 35px;
 
 }
 
@@ -139,28 +146,58 @@ h1 {
 
 .history img {
     width: 200px;
-    justify-content: center;
-        
+    align-self: center;
+    margin: 0 auto;
 }
 
 .history h2 {
-   grid-column: 1/5;
-   margin: 5px;
-   padding: 15px;
- 
+    grid-column: 1/5;
+
 }
 
 .history p {
-    
+
     justify-content: center;
     align-items: center;
-   
+
 }
 
-.socialmedia img{
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.gallery h2 {
+    text-align: center;
+    grid-column: 1/6;
+    margin-bottom: 20px;
+}
+
+.gallery img {
+    width: 150px;
+    align-content: baseline;
+    margin: 5px;
+}
+
+.gallery figcaption {
+    text-align: left;
+    margin-top: 0;
+    padding-top: 0;
+    font-family: var(--text-font);
+    font-size: .75rem
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--secondary-color);
+    font-weight: 500;
+}
+
+.socialmedia img {
     width: 50px;
-    justify-content: center;
-    align-items: center
-    ;
 
 }
