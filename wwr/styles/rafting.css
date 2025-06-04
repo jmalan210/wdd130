@@ -259,7 +259,7 @@ footer {
 .location 
 {   grid-column: 2/3;
     grid-row:1/2;
-    background-color: bisque;
+    background-color: var(--primary-color);
 }
 
 .location address {
