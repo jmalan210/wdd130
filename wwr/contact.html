@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A page that allows the user to contact us about our whitewater rafting company">
+    <meta name="author" content="Jennifer Malan">
+    <title>Contact Us--Down the River Rafting Company</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="rafting company logo">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main >
+        <div  class="aboutpage">
+        <section class="staffbios">
+            <h2>Our Staff</h2>
+            <figure><img src="images/employee1.jpg" alt="Julia Smith">
+                <figcaption>Kandi Smith is our very capable office manager. She lives in Idaho Falls with her family and loves to snowboard in the winter and hike in the summer.</figcaption>
+            </figure>
+            <figure><img src="images/employee2.jpg" alt="Julia Smith">
+                <figcaption>John Clark is our head of reservations. He loves to play board games and write novels in his spare time. He lives in Blackfoot with his wife. </figcaption>
+            </figure>
+            <figure><img src="images/employee3.jpg" alt="Julia Smith">
+                <figcaption>Harriet Johnson is our head tour guide. When she's not on the river, Harriet loves to knit and bake. She lives in Ammon with her dog Milo.</figcaption>
+            </figure>
+        </section>
+        <section class="location">
+            <h2>Our Location</h2>
+            <address>1234 Main Street<br>Idaho Falls, 83401 ID <br>(208)123-4567<br>email@email.com</address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92618.68897390427!2d-112.11872343858929!3d43.495366841365296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5354594e739512b5%3A0x2311c9fc094c49c9!2sIdaho%20Falls%2C%20ID!5e0!3m2!1sen!2sus!4v1749058357774!5m2!1sen!2sus" width="400" height="400"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+        <section class="contactform">
+            <form>
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname"><br>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="useremail" name="useremail"><br>
+                </fieldset>
+                <fieldset>
+                    <legend>What is the purpose of your message?</legend>
+                    <label for="generalinquiry">General Inquiry</label>
+                    <input type="radio" id="generalinquiry" name="generalinquiry"><br>
+                    <label for="reservationquestion">Reservation Question</label>
+                    <input type="radio" id="reservationquestion" name="reservationquestion"><br>
+                    <label for="website suggestion">Website Suggestion</label>
+                    <input type="radio" id="websitesuggestion" name="websitesuggestion"><br>
+                    <textarea name="message" id="message" rows="4"
+                    placeholder="Please type your message here"></textarea><br>
+                    <label for="newsletter">Please subscribe me to the monthly newsletter!</label>
+                    <input type="checkbox" id="newsletter" name="newsletter"><br>
+                    <button type="submit">Send Your Message</button>
+                </fieldset>                
+            </form>
+        </section>
+        </div>
+    </main>
+    <footer>
+        <p>©️ 2025 | Down the River Whitewater Adventures | Jennifer Malan </p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.webp" alt="Facebook">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.webp" alt="Instagram">
+            </a>
+            <a href="https://tiktok.com">
+                <img src="images/tiktok.webp" alt="TikTok">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>

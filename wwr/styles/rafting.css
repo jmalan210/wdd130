@@ -228,3 +228,56 @@ footer {
     width: 50px;
 
 }
+
+/* start styles for about page here: */
+
+.aboutpage {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+
+}
+
+.aboutpage h2{
+    justify-content: center;
+}
+
+.staffbios{
+   align-self: top;
+   justify-self: center;
+    grid-row: 1/4;
+    background-color: var(--accent1-color);
+}
+
+.staffbios img, figcaption {
+    width: 300px;
+    padding: 5px;
+    
+}
+
+.location 
+{   grid-column: 2/3;
+    grid-row:1/2;
+    background-color: bisque;
+}
+
+.location address {
+    padding: 10px;
+}
+
+.location iframe {
+    margin: 10px;
+}
+
+.contactform{
+    grid-column: 2/3;
+    grid-row: 2/4;
+    background-color: var(--secondary-color);
+}
+
+legend {
+    font-family: var(--heading-font);
+    font-size:larger;
+    padding: 10px;
+}
