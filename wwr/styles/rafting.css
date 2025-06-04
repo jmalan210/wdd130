@@ -279,5 +279,6 @@ footer {
 legend {
     font-family: var(--heading-font);
     font-size:larger;
+    font-weight:900 ;
     padding: 10px;
 }
