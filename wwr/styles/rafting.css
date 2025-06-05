@@ -228,6 +228,13 @@ footer {
 
 /* start styles for about page here: */
 
+.contacth1{
+    position:relative;
+    width: 840px;
+    justify-self: center;
+    margin-bottom: 25px;
+}
+
 .aboutpage {
     display: grid;
     grid-template-columns: 1fr 1fr;
