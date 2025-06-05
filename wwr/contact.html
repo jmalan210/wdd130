@@ -27,55 +27,67 @@
             </ul>
         </nav>
     </header>
-    <main >
-        <div  class="aboutpage">
+    <main class="aboutpage">
+        <!-- <div  class="aboutpage"> -->
         <section class="staffbios">
             <h2>Our Staff</h2>
             <figure><img src="images/employee1.jpg" alt="Julia Smith">
-                <figcaption>Kandi Smith is our very capable office manager. She lives in Idaho Falls with her family and loves to snowboard in the winter and hike in the summer.</figcaption>
+                <figcaption>Kandi Smith is our very capable office manager. She lives in Idaho Falls with her family and
+                    loves to snowboard in the winter and hike in the summer.</figcaption>
             </figure>
             <figure><img src="images/employee2.jpg" alt="Julia Smith">
-                <figcaption>John Clark is our head of reservations. He loves to play board games and write novels in his spare time. He lives in Blackfoot with his wife. </figcaption>
+                <figcaption>John Clark is our head of reservations. He loves to play board games and write novels in his
+                    spare time. He lives in Blackfoot with his wife. </figcaption>
             </figure>
             <figure><img src="images/employee3.jpg" alt="Julia Smith">
-                <figcaption>Harriet Johnson is our head tour guide. When she's not on the river, Harriet loves to knit and bake. She lives in Ammon with her dog Milo.</figcaption>
+                <figcaption>Harriet Johnson is our head tour guide. When she's not on the river, Harriet loves to knit
+                    and bake. She lives in Ammon with her dog Milo.</figcaption>
             </figure>
+
         </section>
         <section class="location">
             <h2>Our Location</h2>
-            <address>1234 Main Street<br>Idaho Falls, 83401 ID <br>(208)123-4567<br>email@email.com</address>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92618.68897390427!2d-112.11872343858929!3d43.495366841365296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5354594e739512b5%3A0x2311c9fc094c49c9!2sIdaho%20Falls%2C%20ID!5e0!3m2!1sen!2sus!4v1749058357774!5m2!1sen!2sus" width="400" height="400"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            <address>1234 Main Street<br>Idaho Falls, ID 83401<br>(208)123-4567<br>email@email.com</address>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92618.68897390427!2d-112.11872343858929!3d43.495366841365296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5354594e739512b5%3A0x2311c9fc094c49c9!2sIdaho%20Falls%2C%20ID!5e0!3m2!1sen!2sus!4v1749058357774!5m2!1sen!2sus"
+                width="400" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </section>
         <section class="contactform">
             <form>
                 <fieldset>
-                    <legend>Contact Us</legend>
+                    <legend class="contactus">Contact Us</legend>
+                    <!-- <div class="contactus"> -->
                     <label for="fullname">Full Name</label>
                     <input type="text" id="fullname" name="fullname"><br>
-                    <label for="email">Email Address</label>
+                    <!-- </div> -->
+                    <label for="useremail">Email Address</label>
                     <input type="email" id="useremail" name="useremail"><br>
                 </fieldset>
                 <fieldset>
-                    <legend>What is the purpose of your message?</legend>
-                    <label for="generalinquiry">General Inquiry</label>
-                    <input type="radio" id="generalinquiry" name="generalinquiry"><br>
-                    <label for="reservationquestion">Reservation Question</label>
-                    <input type="radio" id="reservationquestion" name="reservationquestion"><br>
-                    <label for="website suggestion">Website Suggestion</label>
-                    <input type="radio" id="websitesuggestion" name="websitesuggestion"><br>
-                    <textarea name="message" id="message" rows="4"
-                    placeholder="Please type your message here"></textarea><br>
-                    <label for="newsletter">Please subscribe me to the monthly newsletter!</label>
-                    <input type="checkbox" id="newsletter" name="newsletter"><br>
+                    <legend class="msgpurpose">What is the purpose of your message?</legend>
+                    <div class="radio">
+                        <input type="radio" id="purpose" name="purpose">
+                        <label>General Inquiry</label><br>
+                        <input type="radio" id="resquestion" name="purpose">
+                        <label for="resquestion">Reservation Question</label><br>
+                        <input type="radio" id="sitesuggestion" name="purpose">
+                        <label for="sitesuggestion">Website Suggestion</label><br>
+                    </div>
+                    <textarea name="message" id="message" rows="15"
+                        placeholder="Please type your message here"></textarea><br>
+                    <div>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Please subscribe me to the monthly newsletter!</label>
+                    </div>
                     <button type="submit">Send Your Message</button>
-                </fieldset>                
+                </fieldset>
             </form>
         </section>
-        </div>
+        <!-- </div> -->
     </main>
     <footer>
-        <p>©️ 2025 | Down the River Whitewater Adventures | Jennifer Malan </p>
+        <p>©️ 2025 | Down the River Whitewater Adventures | Jennifer Malan | <a href="wireframe.html">Wireframe</a></p>
         <nav class="socialmedia">
             <a href="https://facebook.com">
                 <img src="images/facebook.webp" alt="Facebook">
