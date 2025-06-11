@@ -430,6 +430,17 @@ button:hover {
     align-self: center;
 }
 
+/* start styles for trips  */
+
+.tripsh1 {
+    position:unset;
+    margin-top: 15px;
+      
+}
+
+.tripsh2 {
+    position: relative;
+}
 
 
 
