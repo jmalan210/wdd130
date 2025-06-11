@@ -82,6 +82,7 @@ h2 {
     font-weight: bolder;
     color: var(--accent2-color);
     text-align: center;
+    
 }
 
 nav,
@@ -119,6 +120,8 @@ h1 {
     opacity: 0.9;
     background: var(--accent1-color);
     color: var(--accent2-color);
+    box-shadow: 3px 3px 3px black;
+
 }
 
 .hero article {
@@ -127,12 +130,15 @@ h1 {
     top: 85px;
     background-color: var(--secondary-color);
     margin-left: 105px;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 10px;
 }
 
 .hero article img {
     float: right;
     width: 125px;
-    margin: 10px
+    margin: 10px;
+    border-radius: 10px;
 }
 
 .hero article p {
@@ -144,6 +150,7 @@ h1 {
     text-decoration: none;
     font-weight: bolder;
     color: var(--link-color);
+    
 
 
 }
@@ -162,6 +169,8 @@ h1 {
     width: 275px;
     align-self: center;
     margin: 0 auto;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 10px;
 }
 
 .history h2 {
@@ -172,6 +181,9 @@ h1 {
 .history p {
     justify-content: center;
     align-items: center;
+    background-color: var(--secondary-color);
+    border: 2px solid var(--link-color);
+    border-radius: 10px;
 
 }
 
@@ -202,6 +214,9 @@ h1 {
     width: 150px;
     align-content: baseline;
     margin: 5px;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 10px;
+
 }
 
 .gallery figcaption {
@@ -360,3 +375,61 @@ button {
 button:hover {
     background-color: var(--link-color);
 }
+
+/* start styles for index */
+
+.cta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.cta h2 {
+    margin-bottom: 5px;
+}
+
+.cta img {
+     box-shadow: 3px 3px 3px black;
+     border-radius: 10px;
+}
+.cta a {
+    text-decoration: none;
+    color: var(--accent2-color)
+    
+}
+
+.cta a:hover {
+    color: orangered
+}
+.cta form {
+    grid-row-start: 1;
+    margin: 20px;
+}
+
+.newsletter label {
+    font-family: var(--heading-font);
+ 
+}
+
+.cta form input {
+    align-self: baseline;
+    height: 30px;
+}
+
+.tripselection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    ;
+
+}
+
+.tripselection img {
+    width: 250px;
+    box-shadow: 3px 3px 3px black;
+   border-radius: 10px;
+    align-self: center;
+}
+
+
+
+
