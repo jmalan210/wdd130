@@ -434,15 +434,17 @@ button:hover {
 
 .tripsart  {
     background-color:#F6B81A;
+    width: 250px;
+    float: right;
     text-align: center;
     align-items: center;
     font-family: var(--heading-font);
     font-weight: 700;
     font-size: 1.25rem;
     box-shadow: 3px 3px 3px black;
-    border-radius: 10px;
     opacity: 0.9;
     position: relative;
+    top: -100px;
     z-index: 1;
    
     
