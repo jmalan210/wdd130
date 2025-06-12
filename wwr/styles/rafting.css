@@ -468,40 +468,54 @@ button:hover {
 
 .poptrips {
     width: 840px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 20px;
     row-gap: 20px;
-    
+    margin-bottom: 20px;
+     
     
 }
 
 .poptrips img{
-    width: 200px;
-    margin: 10px
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    
 }
 
 .poptrips h3 {
     text-align: center;
+    font-family: var(--heading-font);
+    font-size: 1.4rem;
     padding: 5px;
     margin-top: 10px;
 }
 
 .poptrips p {
-   margin: 20px;
-}
+   margin: 0 auto;
 
-.rightbox1 {
-    grid-column-start: 2;
-    grid-column-end: 5;
-    background-color: var(--secondary-color);
-    
 }
 
 .leftbox {
     grid-row-start: 1;
     grid-row-end: 3;
     background-color: var(--secondary-color);
+    border-radius: 10px;
+    border: 2px solid var(--link-color);
+    display:flex;
+    flex-direction: column;
+
+}
+
+.rightbox1 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    border: 2px solid var(--link-color);
 }
 
 .rightbox1 img{
@@ -514,9 +528,40 @@ button:hover {
     grid-column-end: 5;
     grid-row-start: 2;
     background-color: var(--secondary-color);
+    border-radius: 10px;
+    border: 2px solid var(--link-color);
+    
   
 }
 
 .rightbox2 img {
     float: left;
 }
+
+.tripstable {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: var(--heading-font);
+    border: 2px solid var(--link-color);
+    border-radius: 10px;
+    
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    text-align: left;
+}
+
+.tableheader {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+tr:nth-child(even){
+    background-color: var(--secondary-color);
+}
+
