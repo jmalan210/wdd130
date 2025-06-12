@@ -426,21 +426,95 @@ button:hover {
 .tripselection img {
     width: 250px;
     box-shadow: 3px 3px 3px black;
-   border-radius: 10px;
+    border-radius: 10px;
     align-self: center;
 }
 
 /* start styles for trips  */
 
-.tripsh1 {
-    position:unset;
-    margin-top: 15px;
-      
+.tripsp {
+    background-color: var(--accent1-color);
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-size: 1.25rem;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 10px;
+    opacity: 0.9;
+    position: relative;
+    z-index: 1;
+    top: -150px;
+    left: -100px;
+    float: right;
+        
+}
+
+.tripsp a {
+     text-decoration: none;
+     color: var(--accent2-color);
+
+}
+
+.tripsp a:hover {
+    color: darkred;
 }
 
 .tripsh2 {
-    position: relative;
+    clear:right;
+    font-size: 2rem;
+}
+
+.poptrips {
+    width: 840px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    
+    
+}
+
+.poptrips img{
+    width: 200px;
+}
+
+.poptrips h3 {
+    text-align: center;
+    padding: 5px;
+}
+
+.poptrips p {
+   margin: 0;
+}
+
+.rightbox1 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: var(--secondary-color);
+    
+}
+
+.leftbox {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: var(--secondary-color);
+}
+
+.rightbox1 img{
+    float: right;
 }
 
 
+.rightbox2{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    background-color: var(--secondary-color);
+  
+}
 
+.rightbox2 img {
+    float: left;
+}
