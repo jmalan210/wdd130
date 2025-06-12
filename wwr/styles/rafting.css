@@ -432,9 +432,8 @@ button:hover {
 
 /* start styles for trips  */
 
-.tripsp {
-    background-color: var(--accent1-color);
-    width: 250px;
+.tripsart  {
+    background-color:#F6B81A;
     text-align: center;
     align-items: center;
     font-family: var(--heading-font);
@@ -445,19 +444,18 @@ button:hover {
     opacity: 0.9;
     position: relative;
     z-index: 1;
-    top: -150px;
-    left: -100px;
-    float: right;
+   
+    
         
 }
 
-.tripsp a {
+.tripsart a {
      text-decoration: none;
      color: var(--accent2-color);
 
 }
 
-.tripsp a:hover {
+.tripsart a:hover {
     color: darkred;
 }
 
@@ -478,15 +476,17 @@ button:hover {
 
 .poptrips img{
     width: 200px;
+    margin: 10px
 }
 
 .poptrips h3 {
     text-align: center;
     padding: 5px;
+    margin-top: 10px;
 }
 
 .poptrips p {
-   margin: 0;
+   margin: 20px;
 }
 
 .rightbox1 {
